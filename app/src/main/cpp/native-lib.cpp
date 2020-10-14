@@ -19,6 +19,7 @@ static double constexpr mPhaseIncrement = kFrequency * kTwoPi / (double) kSample
 // 追踪当前波形位置
 float mPhase = 0.0;
 
+// Oboe 音频流回调类
 class MyCallback : public oboe::AudioStreamCallback {
 public:
     oboe::DataCallbackResult
