@@ -3,6 +3,7 @@
 #include <oboe/Oboe.h>
 #include "logging_macros.h"
 
+// 这部分变量是采样相关的 , 与 Oboe 操作无关
 // 声道个数 , 2 代表立体声
 static int constexpr kChannelCount = 2;
 static int constexpr kSampleRate = 48000;
